@@ -1,6 +1,6 @@
 module.exports = {
   listenIp: '0.0.0.0',
-  listenPort: 3000,
+  listenPort: 80,
   mediasoup: {
     // Worker settings
     worker: {
@@ -46,7 +46,7 @@ module.exports = {
     webRtcTransport: {
       listenIps: [
         {
-          ip: '127.0.0.1',
+          ip: '35.232.195.101',
           announcedIp: null,
         }
       ],
